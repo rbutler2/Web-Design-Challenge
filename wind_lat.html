@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UFT-8">
-    <title>Landing Page</title>
+    <title>Wind Speed vs Latitude</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"> 
 </head>
@@ -44,36 +44,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <div class="container">
         <div class="jumbotron">
-            <h1>Summary: Latitude vs. X</h1>
-            <p>The purpose of this project is to show and analyze the relationship between latitude and the weather.To answer the questions this project posed we pulled data from the OpenWeatherMap API to assemble a dataset containing more than 500 cities.</p>
-            <p>Once the dataset was assembled we used Matplotlib to plot various aspects of the weather and the latitude. Factors such as temperature, cloudiness, wind speed, and humidity were all looked at. This site contains the visulizations generated from the analysis and explinations for the visulizations.</p>
-            <img src="./visualizations/temp_lat.png" alt="Temperature vs Latitude" width="450" hight="450">
+            <h1>Wind Speed vs. Latitude</h1>
+            <p>This plot shows the relationship between latitude and the wind speed of each city. The latitude of the city is the x value and the wind speed is the y value.</p>
+            <p>What we see from this plot is that there is no corrolation between a cities latidude and it's wind speed.</p>
+            <img src="./visualizations/ws_lat.png" alt="Wind Speed vs Latitude" width="500" hight="500">
         </div>
     </div>
 </body>
-<div class="container">
-    <div class="jumbotron">
-        <h1>Visualizations</h1>
-        <div class="row">
-
-            <nav id="sidebar">
-               
-            </nav>
-
-            <div class="col-lg">
-              <img src="./visualizations/temp_lat.png" width="400" hight="400">
-          </div>
-          <div class="col-md">
-              <img src="./visualizations/hum_lat.png" width="400" hight="400">
-          </div>
-          <div class="col-sm">
-              <img src="./visualizations/cloud_lat.png" width="400" hight="400">
-          </div>
-          <div class="col-sm">
-              <img src="./visualizations/ws_lat.png" width="400" hight="400">
-            </div>
-        </div>
-    </div>
-</div>
 
 </html>
